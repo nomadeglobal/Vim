@@ -7,9 +7,10 @@ source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
 
 "==========================================
-"Set font
+"Set font and number
 "==========================================
 set guifont=Consolas:h14
+set number
 
 "==========================================
 "Wrap text
@@ -18,6 +19,11 @@ set guifont=Consolas:h14
 :set linebreak
 :set nolist  " list disables linebreak
 
+"==========================================
+" Spit to the right and down
+"==========================================
+set splitright
+set splitbelow
 
 "==========================================
 
